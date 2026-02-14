@@ -27,6 +27,7 @@ Predict whether a client will subscribe to a term deposit (`y` ∈ {no, yes}) us
 | **K-Nearest Neighbor Classifier** | 0.899086 | 0.771649 | 0.636535  | 0.242816| 0.351534 | 0.351119  |
 
 
+## Observation Table for all models
 | Model | Observation |
 |---|---|
 | **Logistic Regression** | Strong **recall** (0.647) and good **AUC** (0.803) indicate reliable ranking and positive-class capture; **precision** is moderate (0.362), so expect some false positives. Solid baseline; threshold tuning could lift precision without losing too much recall. |
