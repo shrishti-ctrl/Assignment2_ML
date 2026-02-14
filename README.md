@@ -19,13 +19,13 @@ Predict whether a client will subscribe to a term deposit (`y` ∈ {no, yes}) us
 - XGBoost(Ensemble)
 
 ## Comparison Table for Evaluation Metrics:
-                            Model  Accuracy      AUC  Precision   Recall       F1      MCC
-              Logistic Regression  0.831836 0.802949   0.362027 0.646552 0.464157 0.395839
-         Decision Tree Classifier  0.845675 0.618833   0.318790 0.325431 0.322076 0.235029
-    K-Nearest Neighbor Classifier  0.899086 0.771649   0.636535 0.242816 0.351534 0.351119
-Naive Bayes Classifier (Gaussian)  0.807235 0.775785   0.319343 0.628592 0.423524 0.348958
-   Ensemble Model - Random Forest  0.861941 0.814292   0.424081 0.630029 0.506936 0.441613
-         Ensemble Model - XGBoost  0.837663 0.792290   0.369362 0.623563 0.463923 0.393477
+
+| Model                         | Accuracy |   AUC    | Precision | Recall  |   F1     |   MCC     |
+|------------------------------|---------:|---------:|----------:|--------:|---------:|----------:|
+| **Logistic Regression**      | 0.831836 | 0.802949 | 0.362027  | 0.646552| 0.464157 | 0.395839  |
+| **Decision Tree Classifier** | 0.845675 | 0.618833 | 0.318790  | 0.325431| 0.322076 | 0.235029  |
+| **K-Nearest Neighbor Classifier** | 0.899086 | 0.771649 | 0.636535  | 0.242816| 0.351534 | 0.351119  |
+
 
 | Model | Observation |
 |---|---|
